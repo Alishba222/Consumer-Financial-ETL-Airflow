@@ -1,0 +1,18 @@
+@"
+# Credentials & Secrets
+credentials.json
+*.json
+!config/*.json
+.env
+
+# Airflow Runtime & Logs
+logs/
+plugins/
+__pycache__/
+*.pyc
+*.pid
+
+# Data Files
+DATA/*.csv
+*.csv
+"@ | Set-Content N:\airflow\.gitignore
