@@ -116,15 +116,3 @@ Access the Airflow Web UI at http://localhost:8085, unpause the consumer_financi
 
 🔒 Security Note
 Sensitive files including credentials.json, Airflow runtime logs/, and raw/transformed .csv datasets are excluded from version control via .gitignore.
-
-
----
-
-### PowerShell se Direct `README.md` Create aur Push Karne Ke Liye:
-
-VS Code terminal mein yeh commands run kar dein:
-
-```powershell
-git add README.md
-git commit -m "Add polished README with badges and architecture diagram"
-git push
